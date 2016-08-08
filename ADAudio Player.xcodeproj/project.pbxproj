@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD0E2031D5868290059F827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0E2021D5868290059F827 /* main.m */; };
+		6BD0E2061D5868290059F827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0E2051D5868290059F827 /* AppDelegate.m */; };
+		6BD0E2091D5868290059F827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0E2081D5868290059F827 /* ViewController.m */; };
+		6BD0E20C1D5868290059F827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E20A1D5868290059F827 /* Main.storyboard */; };
+		6BD0E20E1D5868290059F827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E20D1D5868290059F827 /* Assets.xcassets */; };
+		6BD0E2111D58682A0059F827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E20F1D58682A0059F827 /* LaunchScreen.storyboard */; };
+		6BD0E2191D5868480059F827 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD0E2181D5868480059F827 /* AVFoundation.framework */; };
+		6BD0E21C1D5869B00059F827 /* audio_pause_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E21A1D5869B00059F827 /* audio_pause_high.png */; };
+		6BD0E21D1D5869B00059F827 /* audio_play_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E21B1D5869B00059F827 /* audio_play_high.png */; };
+		6BD0E21F1D5871820059F827 /* Arijit Singh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0E21E1D5871820059F827 /* Arijit Singh.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BD0E1FE1D5868290059F827 /* ADAudio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADAudio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD0E2021D5868290059F827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BD0E2041D5868290059F827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BD0E2051D5868290059F827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BD0E2071D5868290059F827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BD0E2081D5868290059F827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BD0E20B1D5868290059F827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BD0E20D1D5868290059F827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BD0E2101D58682A0059F827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BD0E2121D58682A0059F827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD0E2181D5868480059F827 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6BD0E21A1D5869B00059F827 /* audio_pause_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_pause_high.png; sourceTree = "<group>"; };
+		6BD0E21B1D5869B00059F827 /* audio_play_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_play_high.png; sourceTree = "<group>"; };
+		6BD0E21E1D5871820059F827 /* Arijit Singh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arijit Singh.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD0E1FB1D5868290059F827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD0E2191D5868480059F827 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD0E1F51D5868290059F827 = {
+			isa = PBXGroup;
+			children = (
+				6BD0E2181D5868480059F827 /* AVFoundation.framework */,
+				6BD0E2001D5868290059F827 /* ADAudio Player */,
+				6BD0E1FF1D5868290059F827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD0E1FF1D5868290059F827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD0E1FE1D5868290059F827 /* ADAudio Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD0E2001D5868290059F827 /* ADAudio Player */ = {
+			isa = PBXGroup;
+			children = (
+				6BD0E2041D5868290059F827 /* AppDelegate.h */,
+				6BD0E2051D5868290059F827 /* AppDelegate.m */,
+				6BD0E2071D5868290059F827 /* ViewController.h */,
+				6BD0E2081D5868290059F827 /* ViewController.m */,
+				6BD0E20A1D5868290059F827 /* Main.storyboard */,
+				6BD0E21E1D5871820059F827 /* Arijit Singh.mp3 */,
+				6BD0E21A1D5869B00059F827 /* audio_pause_high.png */,
+				6BD0E21B1D5869B00059F827 /* audio_play_high.png */,
+				6BD0E20D1D5868290059F827 /* Assets.xcassets */,
+				6BD0E20F1D58682A0059F827 /* LaunchScreen.storyboard */,
+				6BD0E2121D58682A0059F827 /* Info.plist */,
+				6BD0E2011D5868290059F827 /* Supporting Files */,
+			);
+			path = "ADAudio Player";
+			sourceTree = "<group>";
+		};
+		6BD0E2011D5868290059F827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD0E2021D5868290059F827 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD0E1FD1D5868290059F827 /* ADAudio Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD0E2151D58682A0059F827 /* Build configuration list for PBXNativeTarget "ADAudio Player" */;
+			buildPhases = (
+				6BD0E1FA1D5868290059F827 /* Sources */,
+				6BD0E1FB1D5868290059F827 /* Frameworks */,
+				6BD0E1FC1D5868290059F827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADAudio Player";
+			productName = "ADAudio Player";
+			productReference = 6BD0E1FE1D5868290059F827 /* ADAudio Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD0E1F61D5868290059F827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Amol Dhage";
+				TargetAttributes = {
+					6BD0E1FD1D5868290059F827 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BD0E1F91D5868290059F827 /* Build configuration list for PBXProject "ADAudio Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BD0E1F51D5868290059F827;
+			productRefGroup = 6BD0E1FF1D5868290059F827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD0E1FD1D5868290059F827 /* ADAudio Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD0E1FC1D5868290059F827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD0E2111D58682A0059F827 /* LaunchScreen.storyboard in Resources */,
+				6BD0E21C1D5869B00059F827 /* audio_pause_high.png in Resources */,
+				6BD0E21D1D5869B00059F827 /* audio_play_high.png in Resources */,
+				6BD0E21F1D5871820059F827 /* Arijit Singh.mp3 in Resources */,
+				6BD0E20E1D5868290059F827 /* Assets.xcassets in Resources */,
+				6BD0E20C1D5868290059F827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD0E1FA1D5868290059F827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD0E2091D5868290059F827 /* ViewController.m in Sources */,
+				6BD0E2061D5868290059F827 /* AppDelegate.m in Sources */,
+				6BD0E2031D5868290059F827 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD0E20A1D5868290059F827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD0E20B1D5868290059F827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BD0E20F1D58682A0059F827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD0E2101D58682A0059F827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD0E2131D58682A0059F827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BD0E2141D58682A0059F827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD0E2161D58682A0059F827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADAudio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.AmolTD.ADAudio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BD0E2171D58682A0059F827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADAudio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.AmolTD.ADAudio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD0E1F91D5868290059F827 /* Build configuration list for PBXProject "ADAudio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD0E2131D58682A0059F827 /* Debug */,
+				6BD0E2141D58682A0059F827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD0E2151D58682A0059F827 /* Build configuration list for PBXNativeTarget "ADAudio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD0E2161D58682A0059F827 /* Debug */,
+				6BD0E2171D58682A0059F827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD0E1F61D5868290059F827 /* Project object */;
+}
